@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo APP</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mohave&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TODO LIST komponenta -->
+    <div class="todo-list-container">
+      <header>
+        <h1>My programming tasks</h1>
+        <input type="text" class="todo-input-text" id="taskInput" />
+        <button type="button" id="addTask">Add a new task</button>
+      </header>
+      <main>
+        <ul id="todoList" class="todo-list"></ul>
+      </main>
+      <footer>
+        <button type="button" id="saveList">save the list</button>
+        <button type="button" id="deleteList">Delete the list</button>
+      </footer>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
